@@ -28,3 +28,14 @@ is default version for:
 
 # Switching back to new branch
 ### git checkout New_Branch
+
+# To see code that youre merging:
+### git diff New_Branch
+
+# To merge branch with master:
+### git merge New_Branch
+OR
+# Via pull request (more commonly used)
+### git push -u origin New_Branch
+Push new branch // 
+Then check github "Compare and pull request"
