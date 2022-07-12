@@ -39,3 +39,17 @@ OR
 ### git push -u origin New_Branch
 Push new branch // 
 Then check github "Compare and pull request"
+
+# Delete branch:
+### git branch -d New_Branch
+
+
+# Undoing add
+ ### git reset
+
+ # Undoing commit
+ ### git reset HEAD ~1
+ HEAD points to last commit. 1 Means it will point to one commit further. Which means it unstages (add) and uncommits
+
+ # See all commits:
+ ### git log
