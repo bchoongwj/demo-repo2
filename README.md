@@ -12,4 +12,5 @@ The link at the back is the SSH one
 ### git push -u origin master
 In future, subsequent times can use:
 ### git push
-### git push origin main
+is default version for:
+### git push origin master
