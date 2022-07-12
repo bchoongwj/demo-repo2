@@ -53,3 +53,9 @@ Then check github "Compare and pull request"
 
  # See all commits:
  ### git log
+ To get the commit id number for next code:
+
+ # git reset --hard id_number
+ Removes all changes up to that version on vsc, and unstages (add) and uncommits
+ # git reset id_number
+ Goes back to certain commit. But changes are still present on vsc. Just that its unstaged (add) and uncommited
